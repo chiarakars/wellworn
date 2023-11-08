@@ -1,0 +1,180 @@
+@media only screen and (max-width: 667px) {
+  body {
+    background-color: #feefdf;
+    color: black;
+    text-align: center;
+  }
+
+  h1,
+  h2,
+  h3,
+  body,
+  p,
+  footer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 250;
+    font-size: 3vw;
+  }
+
+  h1 {
+    color: black;
+    padding: 0.3em;
+    font-size: 7vw;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+
+  header {
+    background-image: url(images/nav3.png);
+    background-repeat: no-repeat;
+    background-size: 366px 65px;
+  }
+
+  footer {
+    background-color: #eedfcf;
+    text-align: center;
+    padding: 0.9em;
+    margin-bottom: -5em;
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  ul {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1em;
+  }
+
+  ol {
+    color: black;
+    padding: 1em;
+    list-style-type: none;
+    gap: 1em;
+    justify-content: space-around;
+    text-align: justify;
+  }
+
+  a {
+    color: black;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    border-radius: 0.2em;
+    text-decoration: none;
+    transition: 250ms ease;
+  }
+
+  .h1-index {
+    font-size: 13vw;
+    font-weight: 400;
+  }
+
+  .img-nav-los {
+    display: flex;
+    justify-content: right;
+    padding-top: 13px;
+    padding-right: 18px;
+  }
+
+  .logo-absolute {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+
+  .welkom {
+    padding-top: 60px;
+  }
+
+  .a-vintage {
+    text-color: whitesmoke;
+    font-size: 4vw;
+    padding: 0.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #D8EDF3;
+  }
+
+  .justify {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+  }
+
+  .justify-footer {
+    color: gray;
+  }
+
+  .uniek,
+  .duurzaam,
+  .prijs {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    margin: 3%;
+  }
+
+  .img-uniek,
+  .img-duurzaam,
+  .img-prijs {
+    padding-right: 10px;
+    padding-top: 15px;
+  }
+
+  .list-noord,
+  .list-oost,
+  .list-zuid,
+  .list-west {
+    padding: 20px;
+    /* background: whitesmoke; */
+    border-radius: 5px;
+    margin: 3%;
+  }
+
+  .list-noord,
+  .list-zuid {
+    color: whitesmoke;
+    background-color: #203259;
+  }
+
+  .list-oost,
+  .list-west {
+    color: whitesmoke;
+    background-color: #3d5c69;
+  }
+
+  .ik {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .img-ik {
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+
+  .noord,
+  .oost,
+  .zuid,
+  .west {
+    display: flex;
+    /* justify-content: space-between;  */
+    border-radius: 50px;
+    margin: 3%;
+  }
+}
